@@ -22,6 +22,22 @@ package { 'git':
     ensure => installed
 }
 
+package { 'kpartx':
+    ensure => installed
+}
+
+package { 'bridge-utils':
+    ensure => installed
+}
+
+package { 'uml-utilities':
+    ensure => installed
+}
+
+package { 'qemu':
+    ensure => installed
+}
+
 package { 'texinfo':
     ensure => installed
 }
