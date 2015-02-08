@@ -14,6 +14,9 @@
 /etc/random-seed			f	600	0	0	-	-	-	-	-
 /etc/shadow				f	600	0	0	-	-	-	-	-
 /etc/passwd				f	644	0	0	-	-	-	-	-
+/home/renga				d	755	101	101	-	-	-	-	-
+/home/renga/.ssh			d	755	101	101	-	-	-	-	-
+/home/renga/.ssh/authorized_key		f	644	101	101	-	-	-	-	-
 /etc/network/if-up.d			d	755	0	0	-	-	-	-	-
 /etc/network/if-pre-up.d		d	755	0	0	-	-	-	-	-
 /etc/network/if-post-up.d		d	755	0	0	-	-	-	-	-
