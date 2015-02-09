@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2014.11-g5cef01f-dirty Configuration
+# Buildroot 2014.11-g0821a3d Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOSTARCH_NEEDS_IA32_LIBS=y
@@ -1012,8 +1012,8 @@ BR2_PACKAGE_LIBNSPR_ARCH_SUPPORT=y
 # BR2_PACKAGE_ORC is not set
 # BR2_PACKAGE_P11_KIT is not set
 # BR2_PACKAGE_POCO is not set
-# BR2_PACKAGE_PROTOBUF is not set
-# BR2_PACKAGE_PROTOBUF_C is not set
+BR2_PACKAGE_PROTOBUF=y
+BR2_PACKAGE_PROTOBUF_C=y
 # BR2_PACKAGE_QHULL is not set
 # BR2_PACKAGE_QLIBC is not set
 
