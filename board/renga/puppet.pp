@@ -62,26 +62,26 @@ package { 'flex':
     ensure => installed
 }
 
-group { 'rpi':
-    name	=> 'rpi',
+group { 'renga':
+    name	=> 'renga',
     ensure	=> 'present',
     gid		=> 1100
 }
 
-user { 'rpi':
-    name	=> 'rpi',
+user { 'renga':
+    name	=> 'renga',
     ensure	=> 'present',
     uid		=> 1100,
     gid		=> 1100,
-    home	=> '/home/rpi',
-    require	=> Group['rpi']
+    home	=> '/home/renga',
+    require	=> Group['renga']
 }
 
-file { 'rpi':
-    path	=> '/etc/sudoers.d/rpi',
+file { 'renga':
+    path	=> '/etc/sudoers.d/renga',
     ensure	=> present,
     mode	=> 0600,
-    content	=> "rpi ALL=(ALL:ALL) NOPASSWD: ALL\n"
+    content	=> "renga ALL=(ALL:ALL) NOPASSWD: ALL\n"
 }
 
 file { 'host':
