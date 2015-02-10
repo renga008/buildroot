@@ -62,6 +62,18 @@ package { 'flex':
     ensure => installed
 }
 
+package { 'g++':
+    ensure => installed
+}
+
+package { 'libc6':
+    ensure => installed
+}
+
+package { 'lib32stdc++6':
+    ensure => installed
+}
+
 group { 'renga':
     name	=> 'renga',
     ensure	=> 'present',
