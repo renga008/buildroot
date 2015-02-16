@@ -51,6 +51,10 @@ endif
 	source "package/xz/Config.in"
 endmenu
 
+menu "Renga"
+	source "package/uucp/Config.in"
+endmenu
+
 menu "Debugging, profiling and benchmark"
 	source "package/bonnie/Config.in"
 	source "package/cache-calibrator/Config.in"

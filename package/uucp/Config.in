@@ -1,0 +1,7 @@
+config BR2_PACKAGE_UUCP
+	bool "uucp"
+#	depends on BR2_PACKAGE_UUCP
+	help
+		serial communication.
+		https://www.gnu.org/software/uucp/
+
