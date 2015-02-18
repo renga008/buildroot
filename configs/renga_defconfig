@@ -545,6 +545,12 @@ BR2_PACKAGE_GZIP=y
 # BR2_PACKAGE_XZ is not set
 
 #
+# Renga
+#
+# BR2_PACKAGE_UUCP is not set
+BR2_PACKAGE_QT_GSTREAMER=y
+
+#
 # Debugging, profiling and benchmark
 #
 # BR2_PACKAGE_BONNIE is not set
