@@ -9,6 +9,7 @@ QT_GSTREAMER_SOURCE = qt-gstreamer-$(QT_GSTREAMER_VERSION).tar.xz
 QT_GSTREAMER_SITE = http://gstreamer.freedesktop.org/src/qt-gstreamer
 QT_GSTREAMER_LICENSE = GPLv2+
 QT_GSTREAMER_LICENSE_FILES = COPYING
+QT_GSTREAMER_DEPENDENCIES = qt5base gstreamer boost
 
 QT_GSTREAMER_CONF_OPTS += \
 	-DQT_VERSION=5 \
