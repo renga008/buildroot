@@ -51,10 +51,6 @@ endif
 	source "package/xz/Config.in"
 endmenu
 
-menu "Renga"
-	source "package/uucp/Config.in"
-endmenu
-
 menu "Debugging, profiling and benchmark"
 	source "package/bonnie/Config.in"
 	source "package/cache-calibrator/Config.in"
@@ -1157,6 +1153,11 @@ endmenu
 menu "Real-Time"
 	source "package/rtai/Config.in"
 	source "package/xenomai/Config.in"
+endmenu
+
+menu "Renga"
+	source "package/uucp/Config.in"
+	source "package/qt-gstreamer/Config.in"
 endmenu
 
 menu "Shell and utilities"
