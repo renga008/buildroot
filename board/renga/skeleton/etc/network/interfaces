@@ -8,3 +8,10 @@ iface eth0 inet static
     address 192.168.1.111
     netmask 255.255.255.0
     gateway 192.168.1.1
+
+# wlan0
+auto wlan0
+iface wlan0 inet dhcp
+    wireless-essid myssid
+    pre-up wpa_supplicant -B w -D wext -i wlan0 -c /etc/wpa_supplicant.conf -dd
+    post-down killall -q wpa_supplicant
