@@ -1,7 +1,12 @@
 #!/bin/sh
 #
+IMAGEDIR="$1"
+BR_ROOT=$PWD
 
-exec > /tmp/post_image 2>&1
-env
-echo "args: $@"
+SRC_CONFIG_TXT="${PWD}/board/renage/firmware/config.txt"
+DST_CONFIG_TXT="${IMAGEDIR}/rpi-firmware/config.txt"
+if [ -f "${CONFIG_TXT}" -a "${SRC_CONFIG_TXT}" ]; then
+    cp "${SRC_CONFIG_TXT}" "${CONFIG_TXT}"
+fi
+
 exit 0
