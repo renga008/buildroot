@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2014.11-g404b625 Configuration
+# Buildroot 2014.11-ge03ddfb Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOSTARCH_NEEDS_IA32_LIBS=y
@@ -116,7 +116,7 @@ BR2_OPTIMIZE_S=y
 # BR2_ENABLE_SSP is not set
 # BR2_PREFER_STATIC_LIB is not set
 BR2_PACKAGE_OVERRIDE_FILE="$(CONFIG_DIR)/local.mk"
-BR2_GLOBAL_PATCH_DIR=""
+BR2_GLOBAL_PATCH_DIR="board/renga/patch"
 
 #
 # Toolchain
@@ -222,8 +222,8 @@ BR2_TARGET_GENERIC_REMOUNT_ROOTFS_RW=y
 # BR2_TARGET_TZ_INFO is not set
 BR2_ROOTFS_USERS_TABLES="board/renga/user_table.txt"
 BR2_ROOTFS_OVERLAY="board/renga/skeleton"
-BR2_ROOTFS_POST_BUILD_SCRIPT=""
-BR2_ROOTFS_POST_IMAGE_SCRIPT=""
+BR2_ROOTFS_POST_BUILD_SCRIPT="board/renga/script/post_build"
+BR2_ROOTFS_POST_IMAGE_SCRIPT="board/renga/script/post_image"
 
 #
 # Kernel
