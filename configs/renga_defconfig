@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Buildroot 2014.11-gc6ec76f-dirty Configuration
+# Buildroot 2014.11-g404b625 Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOSTARCH_NEEDS_IA32_LIBS=y
@@ -1506,7 +1506,7 @@ BR2_PACKAGE_DROPBEAR_LASTLOG=y
 # BR2_PACKAGE_IPROUTE2 is not set
 # BR2_PACKAGE_IPSEC_TOOLS is not set
 # BR2_PACKAGE_IPSET is not set
-# BR2_PACKAGE_IPTABLES is not set
+BR2_PACKAGE_IPTABLES=y
 # BR2_PACKAGE_IPTRAF_NG is not set
 # BR2_PACKAGE_IPUTILS is not set
 BR2_PACKAGE_IW=y
